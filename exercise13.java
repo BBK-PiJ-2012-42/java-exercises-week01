@@ -9,7 +9,7 @@ public class exercise13 {
         boolean prime;
         for(int i=2; i<1001; i++){
             prime = true;
-            for(int j=i-1; j>1; j--) {
+            for(int j=(int) Math.sqrt(i); j>1; j--) {
                 if(i%j==0) {
                     prime = false;
                 }
