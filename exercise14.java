@@ -18,6 +18,7 @@ public class exercise14 {
                 if(primeCounter==1000) { finished=true; }
             }
         }
+        System.out.println("Finished with " + primeCounter + " primes calculated.");
     }
 }
 
